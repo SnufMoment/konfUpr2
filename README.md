@@ -74,6 +74,7 @@ python main5.py --package AutoMapper --repo https://api.nuget.org/v3/index.json 
 
 # 2. Анализ тестового пакета A
 python main5.py --package A --repo test-repo.json --mode test --max-depth 3 --filter D
+```
 
 ## Визуализация
 
@@ -142,7 +143,7 @@ direction: right
 "AutoMapper" -> "System.Reflection.Emit"
 ...
 ```
-![Граф зависимостей](C:\Users\Admin\Downloads\Telegram Desktop\X_dependencies.svg)
+![Граф зависимостей](stage5/X_dependencies.svg)
 
 ---
 
